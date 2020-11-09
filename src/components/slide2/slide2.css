@@ -1,0 +1,43 @@
+.wrapper-slide2{
+    position: relative;
+    margin: auto;
+    width: 500px;
+    height: 300px;
+
+}
+
+.slovo1a {
+    position: absolute;
+    top: 35px;
+    left: 240px;
+}
+.slovo2a {
+    position: absolute;
+    top: 100px;
+    left: 120px;
+}
+.slovo3a {
+    position: absolute;
+    top: 100px;
+    right: 120px;
+}
+.slovo4a {
+    position: absolute;
+    bottom: 5px;
+    left: 35px;
+}
+.slovo5a {
+    position: absolute;
+    bottom: 5px;
+    left: 180px;
+}
+.slovo6a {
+    position: absolute;
+    bottom: 5px;
+    right: 175px;
+}
+.slovo7a {
+    position: absolute;
+    bottom: 5px;
+    right: 45px;
+}

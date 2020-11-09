@@ -1,0 +1,167 @@
+.App {
+  text-align: center;
+}
+
+.hidden {
+  display: none;
+}
+
+.main{
+  object-fit: cover;
+  height: 700px;
+  width: 100%;
+  background-image: url("components/main/Picture1.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.slide1 {
+  object-fit: cover;
+  height: 700px;
+  max-width: 100%;
+  background-image: url("components/slide1/Picture2.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.velikoa {
+  position: absolute;
+  top: 200px;
+  left: 45%;
+}
+
+.maloa {
+  position: absolute;
+  top: 200px;
+  left: 55%;
+}
+
+.slide2 {
+  position: relative;
+  height: 700px;
+  width: 100%;
+  background-image: url("components/slide2/Picture3.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.slide3 {
+  position: relative;
+  height: 700px;
+  max-width: 100%;
+  background-image: url("components/slide3/Picture4.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+.slide4 {
+  position: relative;
+  height: 700px;
+  max-width: 100%;
+  background-color: #b4b4b4;
+
+}
+.cls {
+  width: 700px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: sans-serif;
+  font-size: 12px;
+  padding: 16px;
+  border-radius: 16px;
+  border: 1px solid skyblue;
+  white-space: pre;
+  touch-action: none;
+  position: absolute;
+  top: 15%;
+  left: 30%;
+}
+.cls2 {
+  width: 570px;
+  height: 320px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: sans-serif;
+  font-size: 12px;
+  padding: 16px;
+  border-radius: 16px;
+  border: 1px solid skyblue;
+  white-space: pre;
+  touch-action: none;
+  position: absolute;
+  top: 25%;
+  left: 35%;
+}
+
+
+.star {
+  position: relative;
+  height: 700px;
+  max-width: 100%;
+  background-image: url("components/star/star.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.train {
+  position: relative;
+  height: 700px;
+  max-width: 100%;
+  background-image: url("components/slide6/voz.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.slide7 {
+  position: relative;
+  height: 700px;
+  width: 100%;
+  background-image: url("components/slide7/slide7.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.slide8 {
+  position: relative;
+  height: 700px;
+  max-width: 100%;
+  background-image: url("components/slide8/drvo.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+.slide9 {
+  position: relative;
+  height: 700px;
+  max-width: 100%;
+  background-image: url("components/slide9/tabla.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+.slide10 {
+  position: relative;
+  height: 700px;
+  max-width: 100%;
+  background-color: #64d36a;
+
+}
+
+.medal {
+  position: relative;
+  height: 700px;
+  max-width: 100%;
+  background-image: url("components/slide12/medal.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}

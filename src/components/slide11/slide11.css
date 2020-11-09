@@ -1,0 +1,44 @@
+.wrapper-slide11 {
+    position: relative;
+    margin: auto;
+    width: 80%;
+    height: 700px;
+    background-image: url("./slajd11.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.s5slovo1 {
+    height: 100px;
+    position: absolute;
+    top: 280px;
+    left: 330px;
+    width: 100px;
+    background-image: url("./s5va.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+.s5slovo2 {
+    height: 100px;
+    position: absolute;
+    top: 360px;
+    left: 730px;
+    width: 100px;
+    background-image: url("./s5va.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+.s5slovo3 {
+    height: 100px;
+    position: absolute;
+    bottom: 1px;
+    left: 430px;
+    width: 100px;
+    background-image: url("./s5va.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}

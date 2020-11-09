@@ -1,0 +1,53 @@
+.wrapper-slider4 {
+    position: relative;
+    margin: auto;
+    width: 80%;
+}
+
+.cardback {
+    height: 300px;
+    width: 200px;
+    background-image: url("./cardback.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.cardfront {
+    height: 300px;
+    width: 200px;
+    background-image: url("./cardfront.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+.cardfront2 {
+    height: 300px;
+    width: 200px;
+    background-image: url("./cardfront2.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.pos1 {
+    position: absolute;
+    top: 80px;
+    left: 0%;
+}
+.pos2 {
+     position: absolute;
+     top: 80px;
+     left: 25%;
+ }
+
+.pos3 {
+    position: absolute;
+    top: 80px;
+    left: 50%;
+}
+.pos4 {
+    position: absolute;
+    top: 80px;
+    left: 75%;
+}
