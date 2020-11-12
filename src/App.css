@@ -7,10 +7,9 @@
 }
 
 .main{
-  object-fit: cover;
-  height: 700px;
+  height: 768px;
   width: 100%;
-  background-image: url("components/main/Picture1.jpg");
+  background-image: url("components/main/main.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -38,15 +37,6 @@
   left: 55%;
 }
 
-.slide2 {
-  position: relative;
-  height: 700px;
-  width: 100%;
-  background-image: url("components/slide2/Picture3.jpg");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: contain;
-}
 
 .slide3 {
   position: relative;

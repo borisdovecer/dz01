@@ -16,6 +16,7 @@ import Slide12 from './components/slide12/medal';
 
 
 import './App.css';
+import './bootstrap.css'
 
 class App extends React.Component {
     state = {

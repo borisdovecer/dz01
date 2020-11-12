@@ -1,3 +1,14 @@
+.slide2 {
+    position: relative;
+    height: 700px;
+    width: 100%;
+    background-image: url("./Picture3.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+
 .wrapper-slide2{
     position: relative;
     margin: auto;
