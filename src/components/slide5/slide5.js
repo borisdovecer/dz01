@@ -2,29 +2,42 @@ import React from "react";
 
 import "./slide5.css"
 
+const slova = [
+    {
+        id: 1,
+        animation: "",
+        class: "s5slovo1 "
+    },
+    {
+        id: 2,
+        animation: "",
+        class: "s5slovo2 "
+    },
+    {
+        id: 3,
+        animation: "",
+        class: "s5slovo3 "
+    }
+]
+
 class Slide5 extends React.Component {
     state = {
+        slova: slova
     };
 
-    next = () => {
-        this.props.nextSlide(6)
-    };
-
-    click = () => {
-        console.log('nasaooo!');
+    click = (e) => {
+        let s = e.target.attributes
+        slova[s.id.value].animation = "rotate-scale-up"
+        this.setState({slova: slova})
     };
 
     render() {
         return (
-            <div className={"container"}>
-                <div className={"row"}>
-                    <div className={"col-lg-12 col-md-12 col-sm-12 wrapper-slide5"}>
-                                <button onClick={this.next} >Next</button>
-                                <div className={"s5slovo1"} onClick={this.click} ></div>
-                                <div className={"s5slovo2"} onClick={this.click} ></div>
-                                <div className={"s5slovo3"} onClick={this.click} ></div>
-                    </div>
-                </div>
+            <div className={"wrapper-slide5"}>
+                <button onClick={this.props.nextSlide} >Next</button>
+                <div className={this.state.slova[0].class + this.state.slova[0].animation} id="0" onClick={this.click} ></div>
+                <div className={this.state.slova[1].class + this.state.slova[1].animation} id="1" onClick={this.click} ></div>
+                <div className={this.state.slova[2].class + this.state.slova[2].animation} id="2" onClick={this.click} ></div>
             </div>
         );
     }

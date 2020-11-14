@@ -3,7 +3,6 @@ import useMouse from '@react-hook/mouse-position'
 
 const Mouse = () => {
 
-
     const ref = React.useRef(null);
     const mouse = useMouse(ref, {
         enterDelay: 100,

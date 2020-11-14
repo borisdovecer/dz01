@@ -2,15 +2,11 @@ import React from "react";
 import useMouse from "@react-hook/mouse-position";
 
 class Crtanje extends React.Component{
-    constructor(props) {
-        super(props);
-        this.state = {
-            found: false,
-            x1: false,
-            x2: false
-        };
+    state = {
+        found: false,
+        x1: false,
+        x2: false
     }
-
 
     nesto = (mouse) => {
 
@@ -24,15 +20,9 @@ class Crtanje extends React.Component{
             }
     };
 
-
-
     render () {
-
         return(
-            <div>
-                <h1>{JSON.stringify(this.state)}</h1>
             <Draw test={this.nesto}  />
-            </div>
         )
     }
 }
@@ -73,19 +63,11 @@ const Draw = (props) => {
                 }}
             />
         );
-
-
-
     }
 
     return (
-
             <div onClick={() => props.test(mouse)} className={"cls"} ref={target}>
                 {drawing}
-                <h1 >{JSON.stringify(mouse.isDown, null, 2)}/</h1>
-                <h1>x:{JSON.stringify(mouse.clientX, null, 2)}/</h1>
-                <h1>y:{JSON.stringify(mouse.clientY, null, 2)}</h1>
-
             </div>
     );
 };

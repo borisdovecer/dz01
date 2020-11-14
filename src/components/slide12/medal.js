@@ -1,17 +1,11 @@
 import React from "react";
 
-class Medal extends React.Component {
-
-    next = () => {
-        this.props.nextSlide(0)
-    };
-    render() {
+function Medal(props) {
         return (
             <div className={"medal"}>
-                <button  onClick={this.next} >Next</button>
+                <button  onClick={props.end} >End</button>
             </div>
         );
-    }
 }
 
 export default Medal;

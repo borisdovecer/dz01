@@ -2,9 +2,6 @@ import React from "react";
 import Crtanje from './draw';
 
 class Slide3 extends React.Component {
-    state = {
-
-    };
 
     nasao = nesto => {
       console.log("nesto:" + nesto);
@@ -18,7 +15,7 @@ class Slide3 extends React.Component {
         return (
             <div className={"slide3"}>
 
-                <button onClick={this.next} >Next</button>
+                <button onClick={this.props.nextSlide} >Next</button>
                 <Crtanje nesto={this.nasao}/>
             </div>
         );

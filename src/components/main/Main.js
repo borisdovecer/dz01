@@ -1,23 +1,11 @@
 import React from "react";
 
-class Main extends React.Component {
-    state = {
-
-    };
-    next = () => {
-        this.props.nextSlide(1)
-    };
-    render() {
-        return (
-            <div className={"main"}>
-                <div>
-                    <button  onClick={this.next} >Start</button>
-
-
-                </div>
-            </div>
-        );
-    }
+function Main(props){
+    return (
+        <div className={"main"}>
+                <button  onClick={props.nextSlide} >Start</button>
+        </div>
+    );
 }
 
 export default Main;

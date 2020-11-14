@@ -23,29 +23,34 @@ class App extends React.Component {
         slide: 0
     };
 
-    nextSlide = nextSlide => {
-        this.setState({slide: nextSlide})
+    nextSlide = () => {
+        this.setState( prevState => {return { slide: prevState.slide + 1 }} )
     };
+    backToMain = () => this.setState({ slide:0})
 
     render() {
         return (
             <div className="App">
-                <React.Fragment>
-                    { this.state.slide === 0 ? <Main nextSlide={this.nextSlide}/> : null}
-                    { this.state.slide === 1 ? <Slide1 nextSlide={this.nextSlide}/> : null}
-                    { this.state.slide === 2 ? <Slide2 nextSlide={this.nextSlide}/> : null}
-                    { this.state.slide === 3 ? <Slide3 nextSlide={this.nextSlide}/> : null}
-                    { this.state.slide === 4 ? <Slide4 nextSlide={this.nextSlide}/> : null}
-                    { this.state.slide === 5 ? <Slide5 nextSlide={this.nextSlide}/> : null}
-                    { this.state.slide === 6 ? <Star nextSlide={this.nextSlide}/> : null}
-                    { this.state.slide === 7 ? <Slide6 nextSlide={this.nextSlide}/> : null}
-                    { this.state.slide === 8 ? <Slide7 nextSlide={this.nextSlide}/> : null}
-                    { this.state.slide === 9 ? <Slide8 nextSlide={this.nextSlide}/> : null}
-                    { this.state.slide === 10 ? <Slide9 nextSlide={this.nextSlide}/> : null}
-                    { this.state.slide === 11 ? <Slide10 nextSlide={this.nextSlide}/> : null}
-                    { this.state.slide === 12 ? <Slide11 nextSlide={this.nextSlide}/> : null}
-                    { this.state.slide === 13 ? <Slide12 nextSlide={this.nextSlide}/> : null}
-                </React.Fragment>
+                <div className={"container"}>
+                    <div className={"row"}>
+                        <div className={"col-lg-12 col-md-12 col-sm-12"}>
+                            { this.state.slide === 0 ? <Main nextSlide={this.nextSlide}/> : null}
+                            { this.state.slide === 1 ? <Slide1 nextSlide={this.nextSlide}/> : null}
+                            { this.state.slide === 2 ? <Slide2 nextSlide={this.nextSlide}/> : null}
+                            { this.state.slide === 3 ? <Slide3 nextSlide={this.nextSlide}/> : null}
+                            { this.state.slide === 4 ? <Slide4 nextSlide={this.nextSlide}/> : null}
+                            { this.state.slide === 5 ? <Slide5 nextSlide={this.nextSlide}/> : null}
+                            { this.state.slide === 6 ? <Star nextSlide={this.nextSlide}/> : null}
+                            { this.state.slide === 7 ? <Slide6 nextSlide={this.nextSlide}/> : null}
+                            { this.state.slide === 8 ? <Slide7 nextSlide={this.nextSlide}/> : null}
+                            { this.state.slide === 9 ? <Slide8 nextSlide={this.nextSlide}/> : null}
+                            { this.state.slide === 10 ? <Slide9 nextSlide={this.nextSlide}/> : null}
+                            { this.state.slide === 11 ? <Slide10 nextSlide={this.nextSlide}/> : null}
+                            { this.state.slide === 12 ? <Slide11 nextSlide={this.nextSlide}/> : null}
+                            { this.state.slide === 13 ? <Slide12 end={this.backToMain}/> : null}
+                        </div>
+                    </div>
+                </div>
             </div>
         );
     }
