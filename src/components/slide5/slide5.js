@@ -1,6 +1,14 @@
 import React from "react";
-
 import "./slide5.css"
+import ReactAudioPlayer from "react-audio-player";
+import Delay from "react-delay-render";
+const Audio = () => <ReactAudioPlayer
+    autoPlay={true}
+    onPlay={e => console.log("onPlay")}
+    src="./7.sakrivla se nasa nestasna slova.pritisni svako slovo koje nadjes.mp3"
+    preload={"auto"}
+/>
+const DelAudio = Delay({ delay: 500 })(Audio);
 
 const slova = [
     {
@@ -25,6 +33,8 @@ class Slide5 extends React.Component {
         slova: slova
     };
 
+
+
     click = (e) => {
         let s = e.target.attributes
         slova[s.id.value].animation = "rotate-scale-up"
@@ -34,10 +44,12 @@ class Slide5 extends React.Component {
     render() {
         return (
             <div className={"wrapper-slide5"}>
-                <button onClick={this.props.nextSlide} >Next</button>
-                <div className={this.state.slova[0].class + this.state.slova[0].animation} id="0" onClick={this.click} ></div>
-                <div className={this.state.slova[1].class + this.state.slova[1].animation} id="1" onClick={this.click} ></div>
-                <div className={this.state.slova[2].class + this.state.slova[2].animation} id="2" onClick={this.click} ></div>
+                <DelAudio/>
+                <img src="./Picture6.jpg"  className="main-img"  alt="img"/>
+                <button className="main-button"  onClick={this.props.nextSlide} >Next</button>
+                <img src="./s5va.png" alt="none" className={this.state.slova[0].class + this.state.slova[0].animation} id="0" onClick={this.click} />
+                <img src="./s5va.png" alt="none"  className={this.state.slova[1].class + this.state.slova[1].animation} id="1" onClick={this.click} />
+                <img src="./s5va.png" alt="none"  className={this.state.slova[2].class + this.state.slova[2].animation} id="2" onClick={this.click} />
             </div>
         );
     }

@@ -23,15 +23,15 @@ class App extends React.Component {
         slide: 0
     };
 
-    nextSlide = () => {
-        this.setState( prevState => {return { slide: prevState.slide + 1 }} )
-    };
+    nextSlide = () => this.setState( prevState => {return { slide: prevState.slide + 1 }} )
+
+
     backToMain = () => this.setState({ slide:0})
 
     render() {
         return (
             <div className="App">
-                <div className={"container"}>
+                <div className={"container-fluid"}>
                     <div className={"row"}>
                         <div className={"col-lg-12 col-md-12 col-sm-12"}>
                             { this.state.slide === 0 ? <Main nextSlide={this.nextSlide}/> : null}

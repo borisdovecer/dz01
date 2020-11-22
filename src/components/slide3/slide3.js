@@ -1,27 +1,29 @@
 import React from "react";
-import Crtanje from './draw';
+import CanvasDraw from "react-canvas-draw";
+import ReactAudioPlayer from "react-audio-player";
+import Delay from "react-delay-render";
+
+const Audio = () => <ReactAudioPlayer
+    autoPlay={true}
+    onPlay={e => console.log("onPlay")}
+    src="./5.hajde sada ti napisi nase slovo a.mp3"
+    preload={"auto"}
+/>
+const DelAudio = Delay({ delay: 500 })(Audio);
 
 class Slide3 extends React.Component {
 
-    nasao = nesto => {
-      console.log("nesto:" + nesto);
-    };
-
-    next = () => {
-        this.props.nextSlide(4)
-    };
-
     render() {
         return (
-            <div className={"slide3"}>
-
+            <div className="slide3">
+                <DelAudio />
                 <button onClick={this.props.nextSlide} >Next</button>
-                <Crtanje nesto={this.nasao}/>
+                <div className="draw">
+                    <CanvasDraw canvasWidth={"100%"} canvasHeight={700} brushColor={"#fff"} margin={"auto"} imgSrc={"./Picture4.jpg"} />
+                </div>
             </div>
         );
     }
-
-
 }
 
 export default Slide3;

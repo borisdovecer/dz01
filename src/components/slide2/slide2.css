@@ -1,54 +1,43 @@
-.slide2 {
-    position: relative;
-    height: 700px;
-    width: 100%;
-    background-image: url("./Picture3.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain;
-}
-
-
-.wrapper-slide2{
-    position: relative;
-    margin: auto;
-    width: 500px;
-    height: 300px;
-
-}
 
 .slovo1a {
     position: absolute;
-    top: 35px;
-    left: 240px;
+    width: 9%;
+    margin-top: 16%;
+    left: 47%;
 }
 .slovo2a {
     position: absolute;
-    top: 100px;
-    left: 120px;
+    width: 9%;
+    margin-top: 25%;
+    left: 29%;
 }
 .slovo3a {
     position: absolute;
-    top: 100px;
-    right: 120px;
+    width: 9%;
+    margin-top: 25%;
+    right: 27%;
 }
 .slovo4a {
     position: absolute;
-    bottom: 5px;
-    left: 35px;
+    width: 9%;
+    margin-top: 42%;
+    left: 17%;
 }
 .slovo5a {
     position: absolute;
-    bottom: 5px;
-    left: 180px;
+    width: 9%;
+    margin-top: 42%;
+    left: 38%;
 }
 .slovo6a {
     position: absolute;
-    bottom: 5px;
-    right: 175px;
+    width: 9%;
+    margin-top: 42%;
+    right: 34%;
 }
 .slovo7a {
     position: absolute;
-    bottom: 5px;
-    right: 45px;
+    width: 9%;
+    margin-top: 41%;
+    right: 17%;
 }

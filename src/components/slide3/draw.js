@@ -67,6 +67,8 @@ const Draw = (props) => {
 
     return (
             <div onClick={() => props.test(mouse)} className={"cls"} ref={target}>
+                <img src="./Picture4.jpg" className="main" alt="img"/>
+
                 {drawing}
             </div>
     );

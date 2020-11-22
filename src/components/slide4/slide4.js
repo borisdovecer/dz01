@@ -2,13 +2,21 @@ import React from "react";
 import Card from './card';
 import Cards from "./Cards";
 import './slide4.css';
-
+import ReactAudioPlayer from "react-audio-player";
+import Delay from "react-delay-render";
+const Audio = () => <ReactAudioPlayer
+    autoPlay={true}
+    onPlay={e => console.log("onPlay")}
+    src="./6.sada cemo da igramo igru memorije, pronadji dva ista slova.mp3"
+    preload={"auto"}
+/>
+const DelAudio = Delay({ delay: 500 })(Audio);
 
 class Slide4 extends React.Component {
 
     state = {
         cards: Cards,
-        arr: []
+        arr: [],
     };
 
     flip = (e) => {
@@ -58,6 +66,7 @@ class Slide4 extends React.Component {
     render() {
         return (
             <div className={"slide4 color-change-2x"}>
+                <DelAudio />
                 <button onClick={this.props.nextSlide} >Next</button>
                 <div className={"row"}>
                     {this.state.cards.map((crd,i) => <Card key={i} onClick={this.flip} data={crd}/>)}
