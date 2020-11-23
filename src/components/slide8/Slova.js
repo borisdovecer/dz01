@@ -3,43 +3,43 @@ const Slova = [
     {
         id:"1",
         hidden:"",
-        value: "A",
+        value: "M",
         found: false
     },
     {
         id:"2",
         hidden:"",
-        value: "a",
+        value: "m",
         found: false
     },
     {
         id:"3",
         hidden:"",
-        value: "A",
+        value: "M",
         found: false
     },
     {
         id:"4",
         hidden:"",
-        value: "a",
+        value: "m",
         found: false
     },
     {
         id:"5",
         hidden:"",
-        value: "A",
+        value: "M",
         found: false
     },
     {
         id:"6",
         hidden:"",
-        value: "a",
+        value: "m",
         found: false
     },
     {
         id:"7",
         hidden:"",
-        value: "A",
+        value: "M",
         found: false
     }
 ];

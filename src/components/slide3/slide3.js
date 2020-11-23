@@ -17,7 +17,7 @@ class Slide3 extends React.Component {
         return (
             <div className="slide3">
                 <DelAudio />
-                <button onClick={this.props.nextSlide} >Next</button>
+                <button style={{zIndex: "30"}} className="main-button" onClick={this.props.nextSlide}>Dalje</button>
                 <div className="draw">
                     <CanvasDraw canvasWidth={"100%"} canvasHeight={700} brushColor={"#fff"} margin={"auto"} imgSrc={"./Picture4.jpg"} />
                 </div>

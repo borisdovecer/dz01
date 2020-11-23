@@ -20,31 +20,31 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="258d1df6-2509-443e-af27-eadaae52dc3e" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/public/1.nase novo slovo je slovo A.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/2,a ovo je nase malo slovo a.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/Picture4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/radno-01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/radno-02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/slide10/Cards.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/slide11/Slova.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/slide5/Slova.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/slide8/Slova.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/main/Main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/main/Main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/main/Picture1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/Picture1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/slide1/Picture2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/Picture2.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/slide1/slide1.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/slide1/slide1.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/slide2/Picture3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/Picture3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/slide10/card.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/slide10/card.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/slide10/slide10.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/slide10/slide10.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/slide11/slajd11.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/slajd11.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/slide11/slide11.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/slide11/slide11.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/slide11/slide11.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/slide11/slide11.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/slide2/Slova.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/slide2/Slova.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/slide2/slide2.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/slide2/slide2.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/slide2/slide2.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/slide2/slide2.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/slide3/draw.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/slide3/draw.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/slide3/slide3.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/slide3/slide3.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/slide4/Cards.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/slide4/Cards.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/slide4/card.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/slide4/card.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/slide4/slide4.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/slide4/slide4.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/slide5/Picture6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/Picture6.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/slide5/s5va.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/s5va.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/slide5/slide5.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/slide5/slide5.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/slide5/slide5.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/slide5/slide5.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/slide6/slide6.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/slide6/slide6.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/slide7/slide7.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/slide7/slide7.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/slide8/drvo.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/drvo2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/slide8/slide8.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/slide8/slide8.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/slide9/slide9.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/slide9/slide9.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/slide9/tabla.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/tabla.jpg" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +73,7 @@
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/public" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/slide10" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -86,11 +86,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/components/slide10" />
+      <recent name="$PROJECT_DIR$/src/components/slide8" />
       <recent name="$PROJECT_DIR$/public" />
       <recent name="G:\Desktop\html\dz01v1\src\components\slide12" />
       <recent name="G:\Desktop\html\dz01v1\src\components\slide11" />
-      <recent name="G:\Desktop\html\dz01v1\src\components\slide10" />
-      <recent name="G:\Desktop\html\dz01v1\src\components\slide9" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/public" />
@@ -117,7 +117,7 @@
       <workItem from="1605198272359" duration="38931000" />
       <workItem from="1605640098230" duration="11013000" />
       <workItem from="1605730881232" duration="15855000" />
-      <workItem from="1606080351213" duration="5062000" />
+      <workItem from="1606080351213" duration="19906000" />
     </task>
     <servers />
   </component>

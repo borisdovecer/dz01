@@ -1,5 +1,4 @@
 import React from "react";
-// import ReactDelayRender from 'react-delay-render';
 
 function Card(props){
 

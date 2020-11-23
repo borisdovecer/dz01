@@ -25,18 +25,29 @@ const Audio2 = () => <ReactAudioPlayer
 />
 const DelAudio2 = Delay({ delay: 7500 })(Audio2);
 
-function Slide1(props) {
+class Slide1 extends React.Component{
 
-     return (
-            <div className={"main"}>
-                <img src="./Picture2.jpg" className="main-img" alt="img"/>
-                <button className="main-button" onClick={props.nextSlide} >Next</button>
-                <DelayedA />
-                <Delayeda />
-                <DelAudio />
-                <DelAudio2 />
-            </div>
-     );
+    state = {
+        btn: false
+    }
+    componentDidMount() {
+        setTimeout( () => {
+            this.setState({btn: true})
+        }, 1000)
+    }
+
+    render(){
+         return (
+                <div className={"main"}>
+                    <img src="./Picture2.jpg" className="main-img" alt="img"/>
+                    {this.state.btn ? <button className="main-button" onClick={this.props.nextSlide}>Dalje </button> : null}
+                    <DelayedA />
+                    <Delayeda />
+                    <DelAudio />
+                    <DelAudio2 />
+                </div>
+         );
+    }
 }
 
 export default Slide1;

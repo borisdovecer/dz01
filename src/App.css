@@ -21,10 +21,10 @@
 .main-button {
   position: absolute;
   margin-top: 2%;
-  left: 50%;
+  left: 45%;
   background-color: #48d969;
-  width: 60px;
-  height: 40px;
+  width: 10%;
+  height: auto;
   border: #c3d948 solid 3px;
 
 }
@@ -174,6 +174,30 @@
   background-size: contain;
 }
 
+.veliko-m {
+  position: absolute;
+  margin-top: 15%;
+  left: 40%;
+  width: 10%;
+}
+
+.malo-m {
+  position: absolute;
+  margin-top: 15%;
+  right: 40%;
+  width: 10%;
+}
+
+.veliko-m:hover {
+  -webkit-animation: rotate-center 0.6s ease-in-out both;
+  animation: rotate-center 0.6s ease-in-out both;
+}
+
+.malo-m:hover {
+  -webkit-animation: rotate-center 0.6s ease-in-out both;
+  animation: rotate-center 0.6s ease-in-out both;
+}
+
 .slide7 {
   position: relative;
   height: 700px;
@@ -188,19 +212,12 @@
   position: relative;
   height: 700px;
   max-width: 100%;
-  background-image: url("components/slide8/drvo.jpg");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: contain;
 }
 .slide9 {
   position: relative;
   height: 700px;
   max-width: 100%;
-  background-image: url("components/slide9/tabla.jpg");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: contain;
+
 }
 .slide10 {
   position: relative;
