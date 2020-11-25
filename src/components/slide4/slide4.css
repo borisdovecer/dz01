@@ -4,30 +4,30 @@
     width: 80%;
 }
 
-.cardback {
+.karta-back-ljubicasta {
     margin: auto;
     height: 300px;
     width: 200px;
-    background-image: url("./cardback.jpg");
+    background-image: url("./karta-back-ljubicasta.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
 }
 
-.cardfront {
+.karta-front-veliko-a {
     margin: auto;
     height: 300px;
     width: 200px;
-    background-image: url("./cardfront.jpg");
+    background-image: url("./velikoa.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
 }
-.cardfront2 {
+.karta-front-malo-a {
     margin: auto;
     height: 300px;
     width: 200px;
-    background-image: url("./cardfront2.jpg");
+    background-image: url("./maloa.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;

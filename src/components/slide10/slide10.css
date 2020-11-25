@@ -4,50 +4,31 @@
     width: 80%;
 }
 
-.cardback {
+.karta-back-zuta {
+    margin: auto;
     height: 300px;
     width: 200px;
-    background-image: url("./cardback.jpg");
+    background-image: url("./karta-back-zuta.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
 }
 
-.cardfront {
+.karta-front-veliko-m {
+    margin: auto;
     height: 300px;
     width: 200px;
-    background-image: url("./cardfront.jpg");
+    background-image: url("./velikom.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
 }
-.cardfront2 {
+.karta-front-malo-m {
+    margin: auto;
     height: 300px;
     width: 200px;
-    background-image: url("./cardfront2.jpg");
+    background-image: url("./malom.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
-}
-
-.pos1 {
-    position: absolute;
-    top: 80px;
-    left: 0%;
-}
-.pos2 {
-     position: absolute;
-     top: 80px;
-     left: 25%;
- }
-
-.pos3 {
-    position: absolute;
-    top: 80px;
-    left: 50%;
-}
-.pos4 {
-    position: absolute;
-    top: 80px;
-    left: 75%;
 }

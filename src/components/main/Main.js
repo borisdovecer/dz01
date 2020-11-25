@@ -4,17 +4,12 @@ import ReactAudioPlayer from 'react-audio-player';
 
 const Audio = () => <ReactAudioPlayer
     autoPlay={true}
-    onPlay={e => console.log("onPlay")}
     src="./0.hajde da zapocnemo nase magicno putovanje i naucimo slova.mp3"
     preload={"auto"}
 />
-const DelAudio = Delay({ delay: 300 })(Audio);
+const DelAudio = Delay({ delay: 1000 })(Audio);
 
 class Main extends React.Component{
-    state = {
-        audio: false
-    }
-
 
     render(){
         return (

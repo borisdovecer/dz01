@@ -7,7 +7,7 @@ import Delay from "react-delay-render";
 const Audio = () => <ReactAudioPlayer
     autoPlay={true}
     onPlay={e => console.log("onPlay")}
-    src="./14.pritisni svako veliko slovo m koje vidis na drvetu.mp3"
+    src="./3.pritisni svako veliko slovo A koje vidis na drvetu.mp3"
     preload={"auto"}
 />
 const DelAudio = Delay({ delay: 500 })(Audio);
@@ -27,7 +27,7 @@ class Slide2 extends React.Component {
         let arr = this.state.uparr
         let arrlow = this.state.lowarr
         let t = e.target.attributes;
-        if(t.name.value === "A"){
+        if(t.name.value === "A" && mee[t.id.value].found === false){
             mee[t.id.value].hidden = "puff-out-center";
             mee[t.id.value].found = true;
             arr.push(mee[t.id.value].found)

@@ -1,4 +1,5 @@
 import React from "react";
+import Slova from "./Slova"
 import "./slide5.css"
 import ReactAudioPlayer from "react-audio-player";
 import Delay from "react-delay-render";
@@ -10,36 +11,22 @@ const Audio = () => <ReactAudioPlayer
 />
 const DelAudio = Delay({ delay: 500 })(Audio);
 
-const slova = [
-    {
-        id: 1,
-        animation: "",
-        class: "s5slovo1 "
-    },
-    {
-        id: 2,
-        animation: "",
-        class: "s5slovo2 "
-    },
-    {
-        id: 3,
-        animation: "",
-        class: "s5slovo3 "
-    }
-]
-
 class Slide5 extends React.Component {
     state = {
-        slova: slova,
+        slova: Slova,
         completearr: [],
         complete: false
     };
 
     click = (e) => {
         let s = e.target.attributes
-        slova[s.id.value].animation = "rotate-scale-up"
-        this.state.completearr.push(slova[s.id.value])
-        this.setState({slova: slova})
+
+        if(Slova[s.id.value].found === false) {
+            Slova[s.id.value].animation = "rotate-scale-up"
+            Slova[s.id.value].found = true
+            this.state.completearr.push(Slova[s.id.value])
+            this.setState({slova: Slova})
+        }
 
         this.complete()
     };

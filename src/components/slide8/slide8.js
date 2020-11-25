@@ -26,7 +26,7 @@ class Slide8 extends React.Component {
         let arr = this.state.uparr
         let arrlow = this.state.lowarr
         let t = e.target.attributes;
-        if(t.name.value === "M"){
+        if(t.name.value === "M" && mee[t.id.value].found === false){
             mee[t.id.value].hidden = "puff-out-center";
             mee[t.id.value].found = true;
             arr.push(mee[t.id.value].found)

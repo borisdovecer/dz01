@@ -2,17 +2,17 @@ const Slova = [
     {
         id: 1,
         animation: "",
-        class: "s5slovo1 "
+        class: "s11slovo1 "
     },
     {
         id: 2,
         animation: "",
-        class: "s5slovo2 "
+        class: "s11slovo2 "
     },
     {
         id: 3,
         animation: "",
-        class: "s5slovo3 "
+        class: "s11slovo3 "
     }
 ]
 

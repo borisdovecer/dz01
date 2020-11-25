@@ -13,7 +13,9 @@ import Slide9 from './components/slide9/slide9';
 import Slide10 from './components/slide10/slide10';
 import Slide11 from './components/slide11/slide11';
 import Slide12 from './components/slide12/medal';
-
+import Slide13 from "./components/slide13/slide13";
+import Pehar from "./components/pehar/pehar"
+import Video from "./components/video/video"
 
 import './App.css';
 import './bootstrap.css'
@@ -47,7 +49,10 @@ class App extends React.Component {
                             { this.state.slide === 10 ? <Slide9 nextSlide={this.nextSlide}/> : null}
                             { this.state.slide === 11 ? <Slide10 nextSlide={this.nextSlide}/> : null}
                             { this.state.slide === 12 ? <Slide11 nextSlide={this.nextSlide}/> : null}
-                            { this.state.slide === 13 ? <Slide12 end={this.backToMain}/> : null}
+                            { this.state.slide === 13 ? <Slide12 nextSlide={this.nextSlide}/> : null}
+                            { this.state.slide === 14 ? <Slide13 nextSlide={this.nextSlide}/> : null}
+                            { this.state.slide === 15 ? <Pehar nextSlide={this.nextSlide}/> : null}
+                            { this.state.slide === 16 ? <Video end={this.backToMain}/> : null}
                         </div>
                     </div>
                 </div>

@@ -1,31 +1,30 @@
-import React from 'react'
 
 const Cards = [
     {
         id:"1",
         value: "big",
-        class:"cardback",
+        class:"karta-back-zuta",
         ck:false,
         found: false
     },
     {
         id:"2",
         value: "big",
-        class:"cardback",
+        class:"karta-back-zuta",
         ck:false,
         found: false
     },
     {
         id:"3",
         value: "small",
-        class:"cardback",
+        class:"karta-back-zuta",
         ck:false,
         found: false
     },
     {
         id:"4",
         value: "small",
-        class:"cardback",
+        class:"karta-back-zuta",
         ck:false,
         found: false
     }
