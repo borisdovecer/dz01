@@ -20,33 +20,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="258d1df6-2509-443e-af27-eadaae52dc3e" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/pehar/pehar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/slide13/reci.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/slide13/slide13.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/video/video.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/logo192.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/logo512.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/main/Main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/main/Main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/slide10/Cards.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/slide10/Cards.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/slide10/slide10.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/slide10/slide10.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/slide10/slide10.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/slide10/slide10.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/slide11/Slova.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/slide11/Slova.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/slide11/s5va.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/slide11/slide11.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/slide11/slide11.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/slide11/slide11.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/slide11/slide11.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/slide12/medal.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/slide12/medal.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/slide2/slide2.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/slide2/slide2.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/slide4/Cards.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/slide4/Cards.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/slide4/slide4.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/slide4/slide4.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/slide4/slide4.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/slide4/slide4.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/slide5/Slova.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/slide5/Slova.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/slide5/slide5.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/slide5/slide5.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/slide8/slide8.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/slide8/slide8.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/star/star.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/star/star.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/slide1/slide1.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/slide1/slide1.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/slide3/slide3.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/slide3/slide3.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/video/video.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/video/video.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -120,7 +98,8 @@
       <workItem from="1605640098230" duration="11013000" />
       <workItem from="1605730881232" duration="15855000" />
       <workItem from="1606080351213" duration="19906000" />
-      <workItem from="1606233242334" duration="14656000" />
+      <workItem from="1606233242334" duration="39114000" />
+      <workItem from="1606498331657" duration="610000" />
     </task>
     <servers />
   </component>
@@ -148,9 +127,6 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
-  </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
   </component>
   <component name="WindowStateProjectService">
     <state x="494" y="355" width="994" height="403" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1606067369725">
