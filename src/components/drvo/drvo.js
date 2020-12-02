@@ -8,6 +8,7 @@ class Drvo extends React.Component {
         audio1: "",
         audio2: "",
         slova: [],
+        position: [],
         upperComplete: false,
         lowerComplete: false,
         uparr: [],
@@ -20,7 +21,16 @@ class Drvo extends React.Component {
                 image: "drvo.jpg",
                 audio1: "3.pritisni svako veliko slovo A koje vidis na drvetu.mp3",
                 audio2:"4.pritisni svako malo slovo a koje vidis na drvetu.mp3",
-                slova:SlovaA
+                slova: SlovaA.sort(() => Math.random() - 0.5),
+                position: [
+                    { top: "7%", left: "47%" },
+                    { top: "11%", left: "38.5%" },
+                    { top: "11%", left: "55.5%" },
+                    { top: "20%", left: "32.5%" },
+                    { top: "20%", left: "43%" },
+                    { top: "20%", left: "52%" },
+                    { top: "20%", left: "60.5%" },
+                ]
             })
         }
         if(this.props.slide === "m"){
@@ -28,7 +38,16 @@ class Drvo extends React.Component {
                 image: "drvo2.jpg",
                 audio1: "14.pritisni svako veliko slovo m koje vidis na drvetu.mp3",
                 audio2: "15.pritisni svako malo slovo m koje vidis na drvetu.mp3",
-                slova:SlovaM
+                slova: SlovaM.sort(() => Math.random() - 0.5),
+                position: [
+                    { top: "5.5%", left: "47.2%" },
+                    { top: "11%", left: "37.2%" },
+                    { top: "11%", left: "57%" },
+                    { top: "20%", left: "32%" },
+                    { top: "20%", left: "42%" },
+                    { top: "20%", left: "52%" },
+                    { top: "20%", left: "62%" },
+                ]
             })
         }
     }
@@ -71,10 +90,12 @@ class Drvo extends React.Component {
     }
 
     render() {
+
         return(
             <div className={"main"} style={{textAlign:"center"}}>
                 <img src={"./slides/" + this.state.image} style={{width:"50%", position:"relative"}} className="main-img" alt="img" />
-                {this.state.lowerComplete ? <button className="main-button" onClick={this.props.nextSlide}>Dalje</button> : null}
+                {this.state.lowerComplete ? <button style={{zIndex: "30"}} className="main-button" onClick={this.props.nextSlide}>Dalje</button> : null}
+
                 {this.state.slova.map( (slovo, i) =>
                     <img key={i}
                          src={"./slides/" + slovo.class}
@@ -82,7 +103,7 @@ class Drvo extends React.Component {
                          alt={"A"}
                          id={i}
                          value={slovo.value}
-                         style={{width:"7%", position:"absolute", marginTop:slovo.top, left:slovo.left}}
+                         style={{width:"7%", position:"absolute", marginTop:this.state.position[i].top, left:this.state.position[i].left}}
                          onClick={this.handleClick}
                     /> )}
                 <audio

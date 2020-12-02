@@ -1,4 +1,5 @@
 import React from 'react'
+
 import Main from './components/main/Main'
 import Slova from './components/slova/Slova'
 import Drvo from './components/drvo/drvo'
@@ -7,6 +8,7 @@ import Karte from "./components/karte/Karte"
 import Skrivalice from "./components/skrivalice/Skrivalice"
 import Reci from "./components/reci/Reci"
 import Video from './components/video/Video'
+
 
 import './App.css'
 import './bootstrap.css'
@@ -21,10 +23,12 @@ class App extends React.Component {
   backToMain = () => this.setState({ slide:0})
 
   render() {
-    return (
+
+      return (
         <div className={"container-fluid"}>
           <div className="row justify-content-center">
-            <div className={"col-lg-12 col-md-12 col-sm-12"}>
+              <div className={"col-lg-12 col-md-12 col-sm-12"}>
+
                 { this.state.slide === 0 ? <Main slide={"main"} nextSlide={this.nextSlide}/> : null}
                 { this.state.slide === 1 ? <Slova slide={"a"} nextSlide={this.nextSlide}/> : null}
                 { this.state.slide === 2 ? <Drvo slide={"a"} nextSlide={this.nextSlide}/> : null}

@@ -6,7 +6,7 @@ class Video extends React.Component{
         return(
             <div className="main">
                 <video
-                    src="./a-z.mp4"
+                    src="./a-s.mp4"
                     autoPlay
                     loop
                     style={{width:"100%", height:"700px"}}
