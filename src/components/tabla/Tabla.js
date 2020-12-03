@@ -22,13 +22,14 @@ class Tabla extends React.Component{
                 <button style={{zIndex: "30"}}  className="main-button" onClick={this.props.nextSlide} >Dalje</button>
                 <button
                     onClick={() => {
-                        
+                        this.saveableCanvas.clear();
                     }}
                 >
                     Clear
                 </button>
                 <img src={"./slides/" + this.state.image} className="main-img" alt="img" />
                         <CanvasDraw
+                            ref={canvasDraw => (this.saveableCanvas = canvasDraw)}
                             canvasWidth={"100%"}
                             canvasHeight={900}
                             brushColor={"#fff"}
