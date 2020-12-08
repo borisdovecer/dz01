@@ -43,7 +43,7 @@ class Slova extends React.Component{
         const Audio2 = () => <audio autoPlay src={"./audio/" + this.state.audio.lower} />
         const DelayedAudio = Delay({ delay: this.state.audio.delay })(Audio2);
 
-        const Btn = () => <button className="main-button" onClick={this.props.nextSlide}>Dalje</button>
+        const Btn = () => <img src={"./slides/button.png"} alt="btn" className="main-button"  onClick={this.props.nextSlide}/>
         const DelayedBtn = Delay({ delay: 8500})(Btn)
         return(
             <div className={"main"}>

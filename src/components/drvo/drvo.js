@@ -94,7 +94,7 @@ class Drvo extends React.Component {
         return(
             <div className={"main"} style={{textAlign:"center"}}>
                 <img src={"./slides/" + this.state.image} style={{width:"50%", position:"relative"}} className="main-img" alt="img" />
-                {this.state.lowerComplete ? <button style={{zIndex: "30"}} className="main-button" onClick={this.props.nextSlide}>Dalje</button> : null}
+                {this.state.lowerComplete ? <img src={"./slides/button.png"} alt="btn" className="main-button"  onClick={this.props.nextSlide}/> : null}
 
                 {this.state.slova.map( (slovo, i) =>
                     <img key={i}

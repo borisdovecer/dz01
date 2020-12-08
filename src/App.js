@@ -1,5 +1,5 @@
 import React from 'react'
-
+import Start from './components/main/Start'
 import Main from './components/main/Main'
 import Slova from './components/slova/Slova'
 import Drvo from './components/drvo/drvo'
@@ -24,7 +24,7 @@ class App extends React.Component {
   render() {
       return (
         <div style={{width: "100%"}} >
-          { this.state.slide === 99 ? <h1 onClick={this.backToMain}>DZ01 Klikni ako si spreman...</h1> : null}
+          { this.state.slide === 99 ? <Start start={this.backToMain} /> : null}
           { this.state.slide === 0 ? <Main slide={"main"} nextSlide={this.nextSlide}/> : null}
           { this.state.slide === 1 ? <Slova slide={"a"} nextSlide={this.nextSlide}/> : null}
           { this.state.slide === 2 ? <Drvo slide={"a"} nextSlide={this.nextSlide}/> : null}

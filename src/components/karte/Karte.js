@@ -113,7 +113,7 @@ class Karte extends React.Component{
                     autoPlay
                     src={"./audio/" + this.state.audio}
                 />
-                {this.state.complete ? <button className="main-button" onClick={this.props.nextSlide}>Dalje</button> : null}
+                {this.state.complete ? <img src={"./slides/button.png"} alt="btn" className="main-button" style={{marginTop: "35%"}} onClick={this.props.nextSlide}/> : null}
                 <div className="row text-center"  style={{marginLeft: 0, marginRight: 0}} >
                         {this.state.karte.map( (card, i) =>
                             <div key={i} className="col-lg-3 col-md-6 col-sm-12" style={{marginTop: "12%"}}>

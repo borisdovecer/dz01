@@ -33,7 +33,7 @@ class Main extends React.Component {
             <div className="main">
                 {this.state.confetti ? <Confetti width={width} height={height}/> : null}
                 <img src={"./slides/" + this.state.image} className="main-img" alt="img" />
-                <button className="main-button" onClick={this.props.nextSlide}>Dalje</button>
+                <img src={"./slides/button.png"} alt="btn" className="main-button"  onClick={this.props.nextSlide}/>
                 <audio autoPlay src={"./audio/" + this.state.audio}/>
             </div>
         )

@@ -43,7 +43,7 @@ class Skrivalice extends React.Component{
         return(
             <div className={"main"}>
                 <img src={'./slides/' + this.state.image} className="main-img" alt="img"/>
-                {this.state.complete ? <button className="main-button" onClick={this.props.nextSlide}>Dalje</button> : null}
+                {this.state.complete ? <img src={"./slides/button.png"} alt="btn" className="main-button"  onClick={this.props.nextSlide}/> : null}
                 {this.state.slova.map( (slovo, i) => <img
                     key={i}
                     src={"./slides/" + this.state.slovoImg}

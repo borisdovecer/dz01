@@ -19,8 +19,8 @@ class Tabla extends React.Component{
     render() {
         return(
             <div className="main">
-                <button style={{zIndex: "30"}}  className="main-button" onClick={this.props.nextSlide} >Dalje</button>
-                <button onClick={() => { this.saveableCanvas.clear(); }} >Clear</button>
+                <img src={"./slides/button.png"} alt="btn" className="main-button"  onClick={this.props.nextSlide}/>
+                <img src={"./slides/clear.png"} alt="clr" onClick={() => { this.saveableCanvas.clear(); }}  className="main-button" style={{left:"9%", marginTop: "8%", width:"5%"}}  />
                 <img src={"./slides/" + this.state.image} className="main-img" alt="img" />
                 <CanvasDraw
                     ref={canvasDraw => (this.saveableCanvas = canvasDraw)}

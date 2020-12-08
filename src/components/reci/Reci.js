@@ -28,7 +28,7 @@ class Reci extends React.Component{
         return(
             <div className={"main"}>
                 <img src={'./slides/bg-lastslide.png'} className="main-img" alt="img"/>
-                {this.state.word === 5 ? <button className="main-button" onClick={this.props.nextSlide}>Dalje</button> : null}
+                {this.state.word === 5 ? <img src={"./slides/button.png"} alt="btn" className="main-button"  onClick={this.props.nextSlide}/> : null}
                 {this.state.reci.map( (rec, i) =>
                     <img key={i}
                          src={"./slides/" + rec.image}
