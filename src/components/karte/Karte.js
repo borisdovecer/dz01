@@ -108,15 +108,15 @@ class Karte extends React.Component{
 
     render() {
         return(
-            <div className={"main color-change-2x"}>
+            <div className={"main color-change-2x"} style={{height:"1080px"}}>
                 <audio
                     autoPlay
                     src={"./audio/" + this.state.audio}
                 />
                 {this.state.complete ? <button className="main-button" onClick={this.props.nextSlide}>Dalje</button> : null}
-                <div className="row text-center" style={{padding: "90px"}}>
+                <div className="row text-center"  style={{marginLeft: 0, marginRight: 0}} >
                         {this.state.karte.map( (card, i) =>
-                            <div key={i} className="col-lg-3 col-md-6 col-sm-12">
+                            <div key={i} className="col-lg-3 col-md-6 col-sm-12" style={{marginTop: "12%"}}>
                                 <img
                                      id={i}
                                      name={card.name}

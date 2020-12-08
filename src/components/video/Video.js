@@ -11,7 +11,7 @@ class Video extends React.Component{
                     loop
                     style={{width:"100%", height:"700px"}}
                 />
-                <button className="main-button" onClick={this.props.nextSlide} >Start</button>
+                <button className="main-button" onClick={this.props.end} >end</button>
             </div>
         )
     }

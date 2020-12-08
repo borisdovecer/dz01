@@ -20,29 +20,20 @@ class Tabla extends React.Component{
         return(
             <div className="main">
                 <button style={{zIndex: "30"}}  className="main-button" onClick={this.props.nextSlide} >Dalje</button>
-                <button
-                    onClick={() => {
-                        this.saveableCanvas.clear();
-                    }}
-                >
-                    Clear
-                </button>
+                <button onClick={() => { this.saveableCanvas.clear(); }} >Clear</button>
                 <img src={"./slides/" + this.state.image} className="main-img" alt="img" />
-                        <CanvasDraw
-                            ref={canvasDraw => (this.saveableCanvas = canvasDraw)}
-                            canvasWidth={"100%"}
-                            canvasHeight={900}
-                            brushColor={"#fff"}
-                            margin={"auto"}
-                        />
-                        <audio
-                            autoPlay
-                            src={"./audio/" + this.state.audio}
-                        />
+                <CanvasDraw
+                    ref={canvasDraw => (this.saveableCanvas = canvasDraw)}
+                    canvasWidth={"100%"}
+                    canvasHeight={900}
+                    brushColor={"#fff"}
+                    margin={"auto"}
+                    lazyRadius={1}
+                />
+                <audio autoPlay src={"./audio/" + this.state.audio} />
             </div>
         )
     }
 }
-
 
 export default Tabla

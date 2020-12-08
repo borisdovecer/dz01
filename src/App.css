@@ -2,6 +2,19 @@
     display: none;
 }
 
+/* Fullscreen */
+.fullscreen-btn {
+    width: 5%;
+    position: absolute;
+    z-index: 30;
+    top: 4%;
+    right: 2%;
+}
+
+.fullscreen-enabled{
+    background-color: #fff;
+}
+
 /* Main */
 .main{
     text-align: left;
